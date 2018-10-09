@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/activation.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/antlr.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/autonumber-plugin.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/bcel.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/bindingservice-plugin.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/bsf.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/bsh.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/bsh-deployer.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/cglib.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/commons-codec.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/commons-collections.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/commons-httpclient.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/commons-logging.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/concurrent.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/dom4j.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/ejb3-persistence.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/el-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/getopt.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/hibernate3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/hibernate-annotations.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/hibernate-entitymanager.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/hsqldb.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/hsqldb-plugin.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/javassist.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jaxen.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-annotations-ejb3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-aop-jdk50.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-aspect-library-jdk50.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-cache-jdk50.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-common.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-common-jdbc-wrapper.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-ejb3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-ejb3x.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-hibernate.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-j2ee.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-jaxrpc.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-jaxws.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-jca.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-jmx.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-jsr77.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-jsr88.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jbossjta.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jbossjta-integration.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-management.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-monitoring.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jbossmq.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-remoting.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-remoting-int.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-saaj.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-serialization.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-srp.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jbosssx.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jbosssx-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-system.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-transaction.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-transaction-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jbossts-common.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-vfs.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jbossws-common.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jbossws-framework.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jbossws-jboss42.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jbossws-spi.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jboss-xml-binding.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jmx-adaptor-plugin.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jnp-client.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jnpserver.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/joesnmp.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jpl-pattern.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jpl-util.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/jsp-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/log4j.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/log4j-boot.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/log4j-snmp-appender.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/mail.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/mail-plugin.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/mysql-connector-java-5.0.4-bin.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/properties-plugin.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/quartz.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/scheduler-plugin.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/scheduler-plugin-example.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/servlet-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/trove.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/deploy/jars/xmlentitymgr.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="FacetManager">
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="" />
+        <datasource-mapping />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/resources/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module" module-name="SWTKal.Base" />
+    <orderEntry type="module-library">
+      <library name="activation.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/activation.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="antlr.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/antlr.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="autonumber-plugin.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/autonumber-plugin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bcel.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/bcel.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bindingservice-plugin.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/bindingservice-plugin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bsf.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/bsf.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bsh.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/bsh.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bsh-deployer.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/bsh-deployer.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cglib.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/cglib.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-codec.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/commons-codec.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-collections.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/commons-collections.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-httpclient.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/commons-httpclient.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-logging.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/commons-logging.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="concurrent.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/concurrent.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dom4j.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/dom4j.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ejb3-persistence.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/ejb3-persistence.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="el-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/el-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="getopt.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/getopt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/hibernate3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-annotations.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/hibernate-annotations.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hibernate-entitymanager.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/hibernate-entitymanager.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hsqldb.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/hsqldb.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hsqldb-plugin.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/hsqldb-plugin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javassist.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/javassist.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxen.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jaxen.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-annotations-ejb3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-annotations-ejb3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-aop-jdk50.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-aop-jdk50.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-aspect-library-jdk50.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-aspect-library-jdk50.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-cache-jdk50.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-cache-jdk50.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-common.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-common.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-common-jdbc-wrapper.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-common-jdbc-wrapper.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-ejb3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-ejb3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-ejb3x.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-ejb3x.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-hibernate.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-hibernate.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-j2ee.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-j2ee.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-jaxrpc.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-jaxrpc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-jaxws.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-jaxws.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-jca.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-jca.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-jmx.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-jmx.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-jsr77.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-jsr77.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-jsr88.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-jsr88.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossjta.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jbossjta.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossjta-integration.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jbossjta-integration.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-management.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-management.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-monitoring.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-monitoring.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossmq.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jbossmq.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-remoting.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-remoting.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-remoting-int.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-remoting-int.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-saaj.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-saaj.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-serialization.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-serialization.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-srp.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-srp.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbosssx.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jbosssx.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbosssx-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jbosssx-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-system.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-system.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-transaction.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-transaction.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-transaction-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-transaction-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossts-common.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jbossts-common.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-vfs.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-vfs.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-common.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jbossws-common.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-framework.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jbossws-framework.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-jboss42.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jbossws-jboss42.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbossws-spi.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jbossws-spi.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jboss-xml-binding.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jboss-xml-binding.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jmx-adaptor-plugin.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jmx-adaptor-plugin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jnp-client.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jnp-client.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jnpserver.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jnpserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="joesnmp.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/joesnmp.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jpl-pattern.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jpl-pattern.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jpl-util.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jpl-util.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jsp-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/jsp-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/log4j.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-boot.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/log4j-boot.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-snmp-appender.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/log4j-snmp-appender.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mail.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/mail.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mail-plugin.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/mail-plugin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mysql-connector-java-5.0.4-bin.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/mysql-connector-java-5.0.4-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="properties-plugin.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/properties-plugin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="quartz.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/quartz.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="scheduler-plugin.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/scheduler-plugin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="scheduler-plugin-example.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/scheduler-plugin-example.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="servlet-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/servlet-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="trove.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/trove.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xmlentitymgr.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/deploy/jars/xmlentitymgr.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
