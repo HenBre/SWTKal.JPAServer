@@ -33,7 +33,7 @@ import swtkal.server.Server;
 public class JPAServer extends Server
 {	
 	protected EntityManager manager;
-	protected EntityTransaction tx;
+	protected EntityTransaction tx; //Test
 
 	/** This constructor creates an initial default user and two appointments
 	 */
