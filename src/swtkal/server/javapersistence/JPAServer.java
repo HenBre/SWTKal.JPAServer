@@ -27,13 +27,13 @@ import swtkal.server.Server;
  * 
  * This server accesses a relational database according to the specifications in
  * persistence.xml and orm.xml.
- * 
+ *  Test
  * @author ejbUser
  */
 public class JPAServer extends Server
 {	
 	protected EntityManager manager;
-	protected EntityTransaction tx; //Test
+	protected EntityTransaction tx; //Test1
 
 	/** This constructor creates an initial default user and two appointments
 	 */
